@@ -7,7 +7,7 @@ import scala.util.matching.Regex
 /**
  * @author 
  */
-object FR2 {
+object FR2_win2 {
   def main(args: Array[String]) : Unit = {
     val url = getClass.getResource("/sample.txt")
     val file = Source.fromURL(url)
