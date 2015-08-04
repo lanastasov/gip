@@ -1,3 +1,4 @@
 {"name": "Street", "value": "street"},
 {"name": "Road", "value": "road"},
-{"name": "Avenue", "value": "avenue"}
+{"name": "Avenue", "value": "avenue"},
+{"name": "Place", "value": "place"}
