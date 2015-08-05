@@ -13,6 +13,7 @@ object FR2 {
     val file = Source.fromURL(url)
     val regex = new Regex("([a-zA-Z:{, \"]+value\": \")(.)([a-zA-Z:}, \"]+)")
 
+    // line added to br-ub from win
     for (line <- file.getLines()) {
       line match {
         case regex(m1, m2, m3) => println(s"$m1" + s"$m2".toUpperCase() + s"$m3")
