@@ -14,6 +14,7 @@ object FR2 {
     val regex = new Regex("([a-zA-Z:{, \"]+value\": \")(.)([a-zA-Z:}, \"]+)")
 
     // line added from br-win second attempt
+    // line added from br-win from win
     for (line <- file.getLines()) {
       line match {
         case regex(m1, m2, m3) => println(s"$m1" + s"$m2".toUpperCase() + s"$m3")
